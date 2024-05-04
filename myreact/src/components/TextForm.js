@@ -104,13 +104,13 @@ export default function TextForm(props) {
       <div className="container my-3">
         <h2>Your text Summary</h2>
         <p>
-          Words: {text.split(" ").length} and Characters: {text.length}
+          Words: {text.length === 0 ? 0 : text.split(" ").length} and Characters: {text.length}
           <p className="my-1">
             Speaking time: {0.041 * text.split(" ").length}/wpm
           </p>
           <p> Reading time: {0.008 * text.split(" ").length}/wpm</p>
           <h2>Preview</h2>
-          <p>{text.lenght > 0 ? text : "your text will be previewed here"}</p>
+          <p>{text.length > 0 ? text : "your text will be previewed here"}</p>
         </p>
       </div>
     </>
