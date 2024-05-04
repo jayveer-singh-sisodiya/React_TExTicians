@@ -71,7 +71,7 @@ function App() {
         ></Navbar>
         <Alert alert={alert}></Alert>
 
-        <div className="container">
+        <div className="container mx-5 my-7">
           {/* <Routes>
             <Route exact path="/About" element={<About mode={mode}></About>} />
 
@@ -79,6 +79,7 @@ function App() {
               exact path="/"
               element={ */}
                 <TextForm
+                
                   heading="Enter the text to analyze"
                   mode={mode}
                   btnMode={btnMode}
