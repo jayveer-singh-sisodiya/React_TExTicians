@@ -71,7 +71,7 @@ function App() {
         ></Navbar>
         <Alert alert={alert}></Alert>
 
-        <div className="container mx-5 my-7">
+        <div className="container ">
           {/* <Routes>
             <Route exact path="/About" element={<About mode={mode}></About>} />
 
